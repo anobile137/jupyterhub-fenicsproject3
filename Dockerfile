@@ -1,6 +1,6 @@
 # Public Domain
 # github project: jupyterhub-fenicsproject with necessary packages
-# install mshr, scipy and matplotlib
+# install mshr, scipy and matplotlib for use in fenics environment
 # version: 0.1
 FROM jupyter/minimal-notebook
 
