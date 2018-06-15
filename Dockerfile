@@ -16,6 +16,7 @@ USER $NB_UID
 RUN conda install mshr && \
     conda install scipy && \
     conda install matplotlib && \
+    conda install bokeh && \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
